@@ -2,11 +2,11 @@ general_settings:
   database_connection_pool_limit: 20
 
 model_list:
-  - model_name: fake-openai-endpoint
+  - model_name: gpt-3.5-turbo
     litellm_params:
-      model: openai/my-fake-model
-      api_key: my-fake-key
-      api_base: https://exampleopenaiendpoint-production.up.railway.app/
+      model: gpt-3.5-turbo
+      api_key: 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
+      api_base: https://api.openai.com/v1
 
 litellm_settings:
   drop_params: True
