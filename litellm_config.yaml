@@ -1,16 +1,15 @@
-general_settings:
-  database_connection_pool_limit: 20
+#general_settings:
+  #database_connection_pool_limit: 20
 
 model_list:
-  - model_name: gpt-3.5-turbo
+  - model_name: mistral-small-latest
     litellm_params:
-      model: gpt-3.5-turbo
-      api_key: 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
-      api_base: https://api.openai.com/v1
+      model: mistral/mistral-small-latest
+      api_key: eVo4ZYmWAL6EiUbXBkkwcgcwnhd5IS5B
 
-litellm_settings:
-  drop_params: True
-  success_callback: ["prometheus"]
-  failure_callback: ["prometheus"]
-  service_callback: ["prometheus_system"]
+#litellm_settings:
+  #drop_params: True
+  #success_callback: ["prometheus"]
+  #failure_callback: ["prometheus"]
+  #service_callback: ["prometheus_system"]
 
