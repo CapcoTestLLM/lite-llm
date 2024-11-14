@@ -5,7 +5,7 @@ model_list:
   - model_name: mistral-small-latest
     litellm_params:
       model: mistral/mistral-small-latest
-      api_key: Zh45P0D2DtbLM5vEfs8RMBnOpEMWdrrQ
+      api_key: HPqPsUp9p1qxzTrrWM8M6YI2jKYNxmHT
 
 #litellm_settings:
   #drop_params: True
